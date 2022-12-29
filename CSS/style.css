@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    background-color: lightgray;
+    font-family: 'Kanit', sans-serif;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(73, 72, 72);
+}
+
+.top-navigation-left img {
+    width: 100px;
+}
+
+.top-navigation-left-items {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.top-navigation-left-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-navigation-right {
+    margin-right: 1em;
+}
+
+.top-navigation-right-items {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.top-navigation-right-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-navigation-right-items img {
+    width: 35px;
+    border-radius: 50px;
+}
+
+.landing-page-top {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.landing-page-top-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-top img {
+    width: 320px;
+}
+
+.landing-page-top-content {
+    background-color: white;
+}
+
+.landing-page-bottom-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-bottom {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.landing-page-bottom-content {
+    background-color: white;
+}
+
+.landing-page-bottom img {
+    width: 320px;
+}
+
+.landing-page h2 {
+    text-align: center;
+    padding: .5em;
+}
+
+.landing-page h3,
+p {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 140px;
+    padding: .15em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#container p {
+    font-size: 0.9em;
+}
+
+footer {
+    padding: 5px;
+}
